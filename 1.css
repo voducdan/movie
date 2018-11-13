@@ -1,0 +1,18 @@
+.move{
+	background-color: dodgerblue;
+	padding:50px;
+	width:10%;
+	transition: 0.4s;
+}
+.right{
+	animation: dichuyen 2s forwards
+}
+.btn{
+	background-color: red;
+}
+@-webkit-keyframes dichuyen{
+	50% {transform: translateX(400px);}
+	100% {
+		transform: translateY(400px);
+	}
+}
